@@ -9,5 +9,11 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(calc.add(-88, 88), 0)
         self.assertEqual(calc.add(2, 2), 4)
 
+    def test_subtract(self):
+        self.assertEqual(calc.subtract(10, 5), 5)
+        self.assertEqual(calc.subtract(100, 1), 99)
+        self.assertEqual(calc.subtract(20, 10), 10)
+        self.assertEqual(calc.subtract(2, 2), 0)
+
 if __name__ == '__main__':
     unittest.main()
