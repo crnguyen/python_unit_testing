@@ -21,6 +21,6 @@ class Employee:
 
 cristina = Employee('cristina', 'nguyen', '100000')
 
-print(cristina.email)
-print(cristina.fullname)
-print()
+# print(cristina.email)
+# print(cristina.fullname)
+# print()
