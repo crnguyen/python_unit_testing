@@ -12,9 +12,11 @@ def subtract(x, y):
 def multiply(x, y):
     """multiply function"""
 
-    return x + y
+    return x * y
 
 def divide(x, y):
     """divide function"""
+    if y == 0:
+        return ValueError('you cant divide by zero!!')
 
-    return x + y
+    return x / y
